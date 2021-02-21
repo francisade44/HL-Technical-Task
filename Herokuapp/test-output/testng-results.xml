@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[The Browser is Maximised]]>
+    </line>
+    <line>
+      <![CDATA[The App is Launched]]>
+    </line>
+    <line>
+      <![CDATA[Enter username]]>
+    </line>
+    <line>
+      <![CDATA[Enter password]]>
+    </line>
+    <line>
+      <![CDATA[The login Button is Clicked]]>
+    </line>
+    <line>
+      <![CDATA[The logout button is Clicked]]>
+    </line>
+    <line>
+      <![CDATA[The Browser is Maximised]]>
+    </line>
+    <line>
+      <![CDATA[The App is Launched]]>
+    </line>
+    <line>
+      <![CDATA[Enter username]]>
+    </line>
+    <line>
+      <![CDATA[Enter password]]>
+    </line>
+    <line>
+      <![CDATA[The login Button is Clicked]]>
+    </line>
+    <line>
+      <![CDATA[The logout button is Clicked]]>
+    </line>
+  </reporter-output>
+  <suite name="FunctionalSuite" duration-ms="28387" started-at="2021-02-21T22:20:24 GMT" finished-at="2021-02-21T22:20:52 GMT">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="14708" started-at="2021-02-21T22:20:24 GMT" finished-at="2021-02-21T22:20:39 GMT">
+      <class name="loginpage.VerifyLogin">
+        <test-method status="PASS" signature="TestValidLogin(java.lang.String)[pri:0, instance:loginpage.VerifyLogin@6325a3ee]" name="TestValidLogin" duration-ms="14656" started-at="2021-02-21T22:20:24 GMT" description="To verify login is succesful for Valid Credentials" finished-at="2021-02-21T22:20:39 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The Browser is Maximised]]>
+            </line>
+            <line>
+              <![CDATA[The App is Launched]]>
+            </line>
+            <line>
+              <![CDATA[Enter username]]>
+            </line>
+            <line>
+              <![CDATA[Enter password]]>
+            </line>
+            <line>
+              <![CDATA[The login Button is Clicked]]>
+            </line>
+            <line>
+              <![CDATA[The logout button is Clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestValidLogin -->
+      </class> <!-- loginpage.VerifyLogin -->
+    </test> <!-- ChromeTest -->
+    <test name="firefoxTest" duration-ms="13628" started-at="2021-02-21T22:20:39 GMT" finished-at="2021-02-21T22:20:52 GMT">
+      <class name="loginpage.VerifyLogin">
+        <test-method status="PASS" signature="TestValidLogin(java.lang.String)[pri:0, instance:loginpage.VerifyLogin@7494e528]" name="TestValidLogin" duration-ms="13624" started-at="2021-02-21T22:20:39 GMT" description="To verify login is succesful for Valid Credentials" finished-at="2021-02-21T22:20:52 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The Browser is Maximised]]>
+            </line>
+            <line>
+              <![CDATA[The App is Launched]]>
+            </line>
+            <line>
+              <![CDATA[Enter username]]>
+            </line>
+            <line>
+              <![CDATA[Enter password]]>
+            </line>
+            <line>
+              <![CDATA[The login Button is Clicked]]>
+            </line>
+            <line>
+              <![CDATA[The logout button is Clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestValidLogin -->
+      </class> <!-- loginpage.VerifyLogin -->
+    </test> <!-- firefoxTest -->
+  </suite> <!-- FunctionalSuite -->
+</testng-results>
